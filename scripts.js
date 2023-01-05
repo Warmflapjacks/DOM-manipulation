@@ -10,7 +10,7 @@
 //Define constants to be reused       
 const container = document.querySelector('#body-container');
 const paragraph = document.createElement('p');
-
+const thirdHeader = document.createElement('h3');
 
 //Adds red text
 paragraph.classList.add('red-text');
@@ -18,5 +18,9 @@ paragraph.textContent = "Hey I'm red!!!";
 paragraph.style.color = 'red';
 container.appendChild(paragraph);
 
-
+//Add <h3> with blue text
+thirdHeader.classList.add('blue-header');
+thirdHeader.textContent = "I'm a blue H3!";
+thirdHeader.style.color = 'blue';
+container.appendChild(thirdHeader);
 
